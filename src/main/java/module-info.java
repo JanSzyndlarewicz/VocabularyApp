@@ -7,7 +7,8 @@ module com.example.vocabularyapp {
     requires com.dlsc.formsfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
-    requires eu.hansolo.tilesfx;
+    requires java.sql;
+    // requires eu.hansolo.tilesfx;
 
     opens com.example.vocabularyapp to javafx.fxml;
     exports com.example.vocabularyapp;
